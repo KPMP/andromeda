@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "homepage": "/comparator",
-  "baseURL": "/comparator/",
+  "baseURL": "/comparator",
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
