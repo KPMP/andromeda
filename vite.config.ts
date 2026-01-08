@@ -15,5 +15,5 @@ export default defineConfig({
     open: true,
     strictPort: true,
     port: 3000,
-  }
+  },
 })
