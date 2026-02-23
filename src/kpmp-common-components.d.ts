@@ -3,6 +3,7 @@ declare module 'kpmp-common-components' {
 
   export interface NavBarProps {
     app?: string;
+    comparatorOn?: string;
   }
 
   export interface NavFooterProps {
