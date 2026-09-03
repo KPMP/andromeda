@@ -1,6 +1,6 @@
 import { UncontrolledComparative } from "@vitessce/comparative";
 
-const datasetUrl = import.meta.env.VITE_DATASET_URL;
+const datasetUrl = import.meta.env.DATASET_URL;
 
 export const ComparatorTool = () => {
     return (
