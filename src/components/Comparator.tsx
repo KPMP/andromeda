@@ -1,4 +1,4 @@
-import { UncontrolledComparative, type UncontrolledComparativeProps } from "@vitessce/comparative";
+import { UncontrolledComparative } from "@vitessce/comparative";
 
 const datasetUrl = import.meta.env.VITE_DATASET_URL;
 
