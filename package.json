@@ -13,6 +13,9 @@
     "build-css": "sass src/:src/"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@vitessce/comparative": "4.0.6",
     "bootstrap": "5.2.3",
     "bootstrap-5-css-only": "5.1.3",
     "kpmp-common-components": "^1.2.17",
@@ -20,7 +23,6 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-test-renderer": "^18.0.0",
-    "@vitessce/comparative": "3.9.4",
     "vite": "7.2.4"
   },
   "devDependencies": {

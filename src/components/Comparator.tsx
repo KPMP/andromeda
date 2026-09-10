@@ -1,20 +1,13 @@
 import { UncontrolledComparative } from "@vitessce/comparative";
 
-interface ControlledComparativeProps {
-    datasetUrl: string;
-    geneSelection: string[];
-    setGeneSelection: Function;
-    sampleSetSelection: string[][];
-    setSampleSetSelection: Function;
-    theme?: string | undefined;
-    debugMode?: boolean | undefined;
-    logLevel: string;
-}
+const datasetUrl = import.meta.env.VITE_DATASET_URL;
 
 export const ComparatorTool = () => {
     return (
         <div>
-            <UncontrolledComparative />
+            <UncontrolledComparative
+                datasetUrl={datasetUrl}
+            />
         </div>
     )
 }
